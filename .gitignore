@@ -1,4 +1,6 @@
-.env
-.env.local
+# Ignorar dependencias
 node_modules/
 dist/
+# IGNORAR O COFRE (Obrigatario por seguranca!)
+.env
+.env.local
