@@ -7,11 +7,20 @@
 
 <title>TechVerse 2026 - Festival do Futuro Digital</title>
 
-<meta name="description" content="Participe do TechVerse 2026, o maior evento sobre tecnologia, inovação, IA, web e startups. Garanta sua vaga!">
+<meta name="description" content="Participe do TechVerse 2026, evento de tecnologia com foco em inovação, inteligência artificial, desenvolvimento web e startups.">
 
 <meta name="keywords" content="tecnologia, evento, inovação, IA, web, startups, programação">
 
 <meta name="author" content="TechVerse">
+
+<!-- Open Graph -->
+<meta property="og:title" content="TechVerse 2026 - Festival do Futuro Digital">
+<meta property="og:description" content="Evento de tecnologia com foco em IA, web e startups.">
+<meta property="og:image" content="img/logo1.webp">
+<meta property="og:type" content="website">
+
+<!-- Favicon -->
+<link rel="icon" href="img/logo1.webp">
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -22,15 +31,15 @@
 <header>
 <div class="container">
 
-<img src="img/logo1.webp" class="logo" alt="Logo TechVerse 2026">
+<img src="img/logo1.webp" class="logo" alt="Logo TechVerse 2026 evento de tecnologia">
 
 <nav>
 <ul>
-<li><a href="#inicio">Início</a></li>
-<li><a href="#sobre">Sobre</a></li>
-<li><a href="#programacao">Programação</a></li>
-<li><a href="#palestrantes">Palestrantes</a></li>
-<li><a href="#contato">Contato</a></li>
+<li><a href="#inicio" title="Ir para início">Início</a></li>
+<li><a href="#sobre" title="Saiba mais sobre o evento">Sobre</a></li>
+<li><a href="#programacao" title="Veja a programação do evento">Programação</a></li>
+<li><a href="#palestrantes" title="Conheça os palestrantes">Palestrantes</a></li>
+<li><a href="#contato" title="Entre em contato">Contato</a></li>
 </ul>
 </nav>
 
@@ -45,7 +54,7 @@
 <section id="sobre">
 <h2>Sobre o Evento</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+O TechVerse 2026 é um evento focado em inovação, tecnologia e futuro digital, reunindo especialistas em inteligência artificial, desenvolvimento web e empreendedorismo.
 </p>
 </section>
 
@@ -56,17 +65,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 <div class="card">
 <h3>Inovação</h3>
-<p>Aprenda a criar aplicações usando IA.</p>
+<p>Aprenda a criar aplicações utilizando inteligência artificial e tecnologias modernas.</p>
 </div>
 
 <div class="card">
 <h3>Web</h3>
-<p>Criação de sites modernos.</p>
+<p>Criação de sites modernos, responsivos e otimizados para desempenho e SEO.</p>
 </div>
 
 <div class="card">
 <h3>Startups</h3>
-<p>Transforme ideias em negócios.</p>
+<p>Transforme ideias em negócios com estratégias e ferramentas do mercado atual.</p>
 </div>
 
 </div>
@@ -78,7 +87,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="cards">
 
 <div class="card">
-<img src="img/01.webp" alt="Lucas Andrade especialista em Inteligência Artificial">
+<img src="img/01.webp" alt="Lucas Andrade especialista em inteligência artificial">
 <h3>Lucas Andrade</h3>
 <p>Especialista em IA.</p>
 </div>
@@ -102,9 +111,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <h2>Contato</h2>
 
 <form>
-<input type="text" placeholder="Nome">
-<input type="email" placeholder="Email">
-<textarea placeholder="Mensagem"></textarea>
+<label>Nome</label>
+<input type="text" name="nome" placeholder="Nome" required>
+
+<label>Email</label>
+<input type="email" name="email" placeholder="Email" required>
+
+<label>Mensagem</label>
+<textarea name="mensagem" placeholder="Mensagem" required></textarea>
+
 <button type="submit">Enviar</button>
 </form>
 
