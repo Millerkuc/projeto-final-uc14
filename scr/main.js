@@ -24,3 +24,11 @@ console.error("Erro na comunicacao com a API:", erro);
 }
 // Chamada da funcao (pode ser vinculada a um botao no seu HTML)
 buscarDados();
+
+
+// Exemplo de consumo da API PHP pelo Frontend
+fetch("https://seusite.com/api.php")
+.then(res => res.json())
+.then(data => {
+console.log("Dados vindos do banco remoto:", data);
+});
